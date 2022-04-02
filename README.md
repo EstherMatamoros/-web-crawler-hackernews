@@ -1,0 +1,2 @@
+# -web-crawler-hackernews
+Web crawler using scraping techniques to extract the first 30 entries from https://news.ycombinator.com/ . Extracts title, the number of the order, the number of comments, and points for each entry. It filters all previous entries with more than five words in the title ordered by the number of comments first. It filters all previous entries with less than or equal to five words in the title ordered by points.
